@@ -14,5 +14,6 @@ $ ln -s mktemp ${PROJECT_PATH}/my-mktmp.sh
 1. `ln -s /usr/temporary/mktemp /usr/lib/my-mktemp/my-mktemp.sh`
 1. `OLD_PATH=$PATH`
 1. `PATH=/usr/temporary:$PATH`
-1. `mktemp`
- 
+1. `mktemp` command now should use the inserted command
+1. PATH=${OLD_PATH}
+1. `mktemp` command now should use the original
